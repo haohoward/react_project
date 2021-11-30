@@ -1,0 +1,33 @@
+.introduce {
+  .main {
+    text-align: center;
+  }
+  .carType {
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 0%;
+    
+  }
+  .carPicture {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    div {
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .textPrice {
+      display: flex;
+      position: relative;
+      .aboutCar {
+        white-space: nowrap;
+      }
+    }
+  }
+}

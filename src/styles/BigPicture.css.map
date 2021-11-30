@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACT,QAAQ,EAAE,QAAQ;CAEnB",
+    "sources": [
+        "BigPicture.scss"
+    ],
+    "names": [],
+    "file": "BigPicture.css"
+}

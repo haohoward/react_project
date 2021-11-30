@@ -1,0 +1,37 @@
+.header {
+  border-style: solid;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #e8ecf0;
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 10;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .leftHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .leftHeader .linkTo {
+  margin: 0 1rem;
+}
+
+.header .rightHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .rightHeader .label {
+  margin: 0 1rem;
+}
+/*# sourceMappingURL=nav.css.map */

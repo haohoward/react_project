@@ -1,0 +1,16 @@
+.content__card {
+  width: 500px;
+  display: grid;
+
+  &--imgBox {
+    width: 100%;
+    object-fit: contain;
+    justify-content: space-around;
+    img {
+      width: 100%;
+      
+    }
+
+
+  }
+}

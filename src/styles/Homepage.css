@@ -1,0 +1,17 @@
+.homepage {
+  width: 100%;
+}
+
+.homepageCard {
+  width: 90%;
+  margin: auto;
+  height: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  overflow: auto;
+}
+/*# sourceMappingURL=Homepage.css.map */

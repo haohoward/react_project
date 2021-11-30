@@ -1,0 +1,23 @@
+.more {
+  display: -ms-grid;
+  display: grid;
+  background-color: black;
+  color: white;
+}
+
+.more .moreText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.more .webLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=More.css.map */

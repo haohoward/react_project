@@ -1,0 +1,18 @@
+.content__card {
+  width: 500px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.content__card--imgBox {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.content__card--imgBox img {
+  width: 100%;
+}
+/*# sourceMappingURL=ImgCard.css.map */
