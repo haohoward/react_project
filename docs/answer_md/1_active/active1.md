@@ -1,6 +1,7 @@
 ### 1.
 ![](../projectimg/作業.PNG)
 開始學習導入圖片，構想框架。
+```
 import React from 'react';
 import '../styles/nav.scss';
 import { Link } from 'react-router-dom';
@@ -54,3 +55,4 @@ export default function Nav() {
     </nav>
   );
 }
+```

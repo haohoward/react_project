@@ -3,7 +3,7 @@
 
 解決方法:上網尋找後得到解答，使用使用 Carousel方法解決。
 以下輪播程式碼:
-Carousel
+```Carousel
         Carousel.Item interval={5000}
           img
             className='d-block w-100'
@@ -39,4 +39,4 @@ Carousel
             alt='Fivth slide'
           /
         /Carousel.Item
-      /Carousel
+      /Carousel```
