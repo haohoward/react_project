@@ -1,18 +1,45 @@
 .content__card {
-  width: 500px;
   display: -ms-grid;
   display: grid;
+  width: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .content__card--imgBox {
-  width: 100%;
+  width: 150px;
+  height: 80px;
   -o-object-fit: contain;
      object-fit: contain;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .content__card--imgBox img {
-  width: 100%;
+  width: 600%;
+}
+
+.content__card--price {
+  text-align: center;
+  height: 60px;
+  width: 180px;
+  font-size: 1rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.content__card--title {
+  text-align: center;
+  height: 60px;
+  font-size: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.content__card--type {
+  text-align: center;
+  height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  font-size: 20px;
 }
 /*# sourceMappingURL=ImgCard.css.map */

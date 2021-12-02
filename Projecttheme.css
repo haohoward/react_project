@@ -34,4 +34,60 @@
 .header .rightHeader .label {
   margin: 0 1rem;
 }
+
+.IntroduceCar {
+  display: -ms-grid;
+  display: grid;
+}
+
+.IntroduceCar .typeIDC {
+  text-align: center;
+}
+
+.IntroduceCar .Typebutton {
+  text-align: center;
+  margin: 5px;
+}
+
+.IntroduceCar .Cardiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.IntroduceCar .Cardiv .Car {
+  display: -ms-grid;
+  display: grid;
+}
+
+.more {
+  display: -ms-grid;
+  display: grid;
+  background-color: black;
+  color: white;
+}
+
+.more .moreText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.more .webLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 /*# sourceMappingURL=Projecttheme.css.map */
