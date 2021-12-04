@@ -6,23 +6,21 @@ export default function Nav() {
   return (
     <nav className='header'>
       <div className='leftHeader'>
-        <Link to='/'>
-          <img
-            className='nav_logo'
-            src='https://www.toyota.com.tw/images/logo/logo-toyota.png'
-            width='150px'
-            alt=''
-          />
-        </Link>
-        <a href='http://localhost:3000/secondPage' className="linkTo">
+        <img
+          className='nav_logo'
+          src='https://www.toyota.com.tw/images/logo/logo-toyota.png'
+          width='150px'
+          alt=''
+        />
+        <Link to='/SecondPage' className='linkTo'>
           <i></i>品牌新知
-        </a>
-        <a href='http://localhost:3000/secondPage' className="linkTo">
+        </Link>
+        <Link to='/SecondPage' className='linkTo'>
           <i></i>購車資訊
-        </a>
-        <a href='http://localhost:3000/secondPage' className="linkTo">
+        </Link>
+        <Link to='/SecondPage' className='linkTo'>
           <i></i>售後服務
-        </a>
+        </Link>
       </div>
       <div className='rightHeader'>
         <img
@@ -31,7 +29,7 @@ export default function Nav() {
           width='30px'
           alt=''
         />
-        <a href='https://www.toyota.com.tw/owner_login.aspx'  className='label'>
+        <a href='https://www.toyota.com.tw/owner_login.aspx' className='label'>
           <img
             src='https://t3.ftcdn.net/jpg/01/03/98/10/240_F_103981090_XHS2eMXAgijVqSyVuRVEFfjYDVVKrM0F.jpg'
             width='30px'
@@ -39,7 +37,7 @@ export default function Nav() {
           />
           <i></i>追蹤清單
         </a>
-        <a href='https://www.toyota.com.tw/owner_login.aspx'  className='label'>
+        <a href='https://www.toyota.com.tw/owner_login.aspx' className='label'>
           <img
             src='https://t4.ftcdn.net/jpg/00/65/77/27/240_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg'
             width='30px'
